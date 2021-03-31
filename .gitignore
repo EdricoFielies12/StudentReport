@@ -2,3 +2,5 @@
 #For NetBeans only.
 
 pom.xml
+/StudentReport/nbproject/
+/StudentReport/target/
