@@ -19,11 +19,11 @@ import org.junit.jupiter.api.Timeout;
  * @author Beverley
  */
 
-public class ReportTest {
+public class EdricoTest1 {
     
     Report edrico = null;
     Report edrico2 = null;
-    public ReportTest() {
+    public EdricoTest1() {
     }
     
     @BeforeAll
