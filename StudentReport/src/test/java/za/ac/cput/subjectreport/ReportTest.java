@@ -12,6 +12,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Timeout;
 
 /**
  *
@@ -62,10 +63,11 @@ public class ReportTest {
        boolean result = edrico.CellNumberVerifier("a0812831764");
        assertEquals(true, result);
     }
-    
+    @Test
+    @Timeout (value = 1000)
     public void timeoutTest()
     {
-        
+        System.out.println("Checks timeout");   
     }
 
     @Test
